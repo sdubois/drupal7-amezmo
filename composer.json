@@ -1,5 +1,10 @@
 {
     "require": {
-        "vlucas/phpdotenv": "^5.4"
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "files": [
+            "load.environment.php"
+        ]
     }
 }
