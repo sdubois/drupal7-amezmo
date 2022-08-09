@@ -1,4 +1,3 @@
-
 # Drupal 7 Amezmo
 
 Instructions and helpful files for running Drupal 7 on the [Amezmo](http://amezmo.com) platform.
