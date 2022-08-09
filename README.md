@@ -22,23 +22,23 @@ This file should be placed in your root directory.
 
 ### index.php
 
-This is the standard index.php file that comes with any Drupal 7 installation, but with a minor modification to autoload code from composer packages. 
+This is the standard ```index.php``` file that comes with any Drupal 7 installation, but with a minor modification to autoload code from composer packages. 
 
-This file should replace the existing index.php file in your root directory. While it is generally an unwise idea to modify core, it is necessary in this case.
+This file should replace the existing ```index.php``` file in your root directory. While it is generally an unwise idea to modify core, it is necessary in this case.
 
 ### settings.php
 
-This is a very minimal settings.php file to demonstrate how to connect to your application's database on Amezmo using the provided environment variables. 
+This is a very minimal ```settings.php``` file to demonstrate how to connect to your application's database on Amezmo using the provided environment variables. 
 
 This can either be used as a starting point for your site, or a reference for modifying your existing settings.php file. 
 
-In most cases, this file should be placed in the /sites/default directory. 
+In most cases, this file should be placed in the ```/sites/default``` directory. 
 
-### .amezmo/after.pull
+### after.pull
 
 This script file is necessary to create a symlink to Amezmo's storage directory. For more information on deployment hooks, see the documentation at https://www.amezmo.com/docs/deployments/hooks
 
-This file must be placed in the .amezmo directory in your site root. 
+This file must be placed in the ```.amezmo``` directory in your site root. 
 
 ## Help
 
