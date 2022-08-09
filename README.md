@@ -38,6 +38,8 @@ In most cases, this file should be placed in the /sites/default directory.
 
 This script file is necessary to create a symlink to Amezmo's storage directory. For more information on deployment hooks, see the documentation at https://www.amezmo.com/docs/deployments/hooks
 
+This file must be placed in the .amezmo directory in your site root. 
+
 ## Help
 
 If you need assistance beyond the scope of this guide, contact Amezmo Support at https://www.amezmo.com/support
