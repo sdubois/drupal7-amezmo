@@ -34,6 +34,10 @@ This can either be used as a starting point for your site, or a reference for mo
 
 In most cases, this file should be placed in the /sites/default directory. 
 
+### .amezmo/after.pull
+
+This script file is necessary to create a symlink to Amezmo's storage directory. For more information on deployment hooks, see the documentation at https://www.amezmo.com/docs/deployments/hooks
+
 ## Help
 
 If you need assistance beyond the scope of this guide, contact Amezmo Support at https://www.amezmo.com/support
