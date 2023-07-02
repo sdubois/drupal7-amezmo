@@ -1,10 +1,16 @@
 {
     "require": {
+        "drush/drush": "8.3.3",
         "vlucas/phpdotenv": "^5.2"
     },
     "autoload": {
         "files": [
             "load.environment.php"
         ]
+    },
+    "extra": {
+        "installer-paths": {
+            "core": ["type:drupal-core"]
+        }
     }
 }
